@@ -1,0 +1,42 @@
+.landing {
+    height: 100vh;
+    background-image: url(./Images/back.jpg);
+    background-size: cover;
+    position: relative;
+}
+.landing .land-intro {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 500px;
+    max-width: 100%;
+}
+.landing .land-intro h1 {
+    color: white;
+    font-size: 30px;
+    /* text-transform: capitalize; */
+    /* font-weight: bold; */
+    margin: 0;
+}
+.landing .land-intro p {
+    color: white;
+    font-size: 19px;
+    line-height: 1.8;
+}
+button {
+    width: 150px;
+    color: blue;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-color: white;
+    outline: none;
+}
+
+
+
+
+
